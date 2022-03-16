@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flip Carousel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/carousel.css">
+</head>
+
+<body>
+    <div class="owl-carousel owl-theme">
+        <div id="f1_container">
+            <div id="f1_card" class="shadow">
+                <div class="front face">
+                    <div class="front-p">
+                        <p><i class="fa fa-graduation-cap" aria-hidden="true"></i> 1050 Students Enrolled</p>
+                    </div>
+                    <img src="https://www.alphaacademy.org/wp-content/uploads/2022/03/unsplash_tbaoryUol_E-1.png"
+                        alt="test" />
+                    <div class="bottom-p">
+                        <p>Event Management <br /> <span>£19.00</span></p>
+                    </div>
+                </div>
+                <div class="back face center">
+                    <h3>Event Management</h3>
+                    <p>21 Modules</p>
+                    <p>0% Finance</p>
+                    <h2>£19.00</h2>
+                    <div class="btns">
+                        <a href="" class="sub-btn1">More Info</a>
+                        <a href="" class="sub-btn2">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="f1_container">
+            <div id="f1_card" class="shadow">
+                <div class="front face">
+                    <div class="front-p">
+                        <p><i class="fa fa-graduation-cap" aria-hidden="true"></i> 1050 Students Enrolled</p>
+                    </div>
+                    <img src="https://www.alphaacademy.org/wp-content/uploads/2022/03/unsplash_NXMZxygMw8o-1.png"
+                        alt="test" />
+                    <div class="bottom-p">
+                        <p>Fitness Instructor <br /> <span>£19.00</span></p>
+                    </div>
+                </div>
+                <div class="back face center">
+                    <h3 <h3>Fitness Instructor</h3>
+                    <p>21 Modules</p>
+                    <p>0% Finance</p>
+                    <h2>£19.00</h2>
+                    <div class="btns">
+                        <a href="" class="sub-btn1">More Info</a>
+                        <a href="" class="sub-btn2">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="f1_container">
+            <div id="f1_card" class="shadow">
+                <div class="front face">
+                    <div class="front-p">
+                        <p><i class="fa fa-graduation-cap" aria-hidden="true"></i> 1050 Students Enrolled</p>
+                    </div>
+                    <img src="https://www.alphaacademy.org/wp-content/uploads/2022/03/shutterstock_1072128530-1-1.png"
+                        alt="test" />
+                    <div class="bottom-p">
+                        <p>Elderly Care Diploma <br /> <span>£19.00</span></p>
+                    </div>
+                </div>
+                <div class="back face center">
+                    <h3>Elderly Care Diploma</h3>
+                    <p>21 Modules</p>
+                    <p>0% Finance</p>
+                    <h2>£19.00</h2>
+                    <div class="btns">
+                        <a href="" class="sub-btn1">More Info</a>
+                        <a href="" class="sub-btn2">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="f1_container">
+            <div id="f1_card" class="shadow">
+                <div class="front face">
+                    <div class="front-p">
+                        <p><i class="fa fa-graduation-cap" aria-hidden="true"></i>1050 Students Enrolled</p>
+                    </div>
+                    <img src="https://www.alphaacademy.org/wp-content/uploads/2022/03/Mask-group-4-1.png" alt="test" />
+                    <div class="bottom-p">
+                        <p>Car Mechanic <br /> <span>£19.00</span></p>
+                    </div>
+                </div>
+                <div class="back face center">
+                    <h3>Car Mechanic</h3>
+                    <p>21 Modules</p>
+                    <p>0% Finance</p>
+                    <h2>£19.00</h2>
+                    <div class="btns">
+                        <a href="" class="sub-btn1">More Info</a>
+                        <a href="" class="sub-btn2">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                center: false,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                nav: true,
+                dots: true,
+                autoplayHoverPause: true,
+                responsive:{
+                    0: {
+                        items: 1,
+                        // nav: true
+                    },
+                    600: {
+                        items: 2,
+                        // nav: true
+                    },
+                    1000: {
+                        items: 4,
+                        //nav: true
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
